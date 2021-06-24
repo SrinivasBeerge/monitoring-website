@@ -1,0 +1,16 @@
+{
+  "monitor_interval": 60,
+  "websites": [
+    "https://aiven.io/"
+  ],
+  "kafka": {
+    "server": "kafka-2b89cf75-srinivas-8a9f.aivencloud.com:12911",
+    "topic": "monitor_events"
+  },
+  "postgres": {
+    "host": "pg-3dc867d8-srinivas-8a9f.aivencloud.com:12909",
+    "db": "defaultdb",
+    "username": "avnadmin",
+    "table": "monitor_stats"
+  }
+}
